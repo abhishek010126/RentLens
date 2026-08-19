@@ -1,7 +1,6 @@
 
 from supabase import create_client
 
-load_dotenv()
 
 SUPABASE_URL = st.secrets["SUPABASE_URL"]
 SUPABASE_KEY = st.secrets["SUPABASE_PUBLISHABLE_KEY"]
