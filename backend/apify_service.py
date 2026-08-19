@@ -1,10 +1,8 @@
-import os
 
-from dotenv import load_dotenv
 from apify_client import ApifyClient
 
 
-load_dotenv()
+
 
 APIFY_TOKEN = st.secrets["APIFY_API_TOKEN"]
 
