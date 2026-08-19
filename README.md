@@ -19,8 +19,8 @@ single workflow.
 | Resource | Link |
 |---|---|
 | 💻 GitHub Repository | [RentLens](https://github.com/abhishek010126/RentLens) |
-| 🚀 Live Application | `YOUR_LIVE_APP_LINK` |
-| 🎥 Demo Video | `YOUR_VIDEO_LINK` |
+| 🚀 Live Application | `https://rentlens.streamlit.app/` |
+| 🎥 Demo Video | `https://youtu.be/Ut-ySD0L0-g` |
 
 ---
 
