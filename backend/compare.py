@@ -1,5 +1,5 @@
 from google import genai
-import os
+
 
 client = genai.Client(
     api_key=st.secrets["GEMINI_API_KEY"]
