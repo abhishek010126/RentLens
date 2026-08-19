@@ -9,7 +9,7 @@ from supabase_config import supabase
 
 load_dotenv()
 
-APIFY_API_TOKEN = os.getenv("APIFY_API_TOKEN")
+apify_token = st.secrets["APIFY_API_TOKEN"]
 
 client = ApifyClient(APIFY_API_TOKEN)
 
