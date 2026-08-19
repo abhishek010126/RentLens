@@ -7,7 +7,7 @@ from apify_client import ApifyClient
 
 load_dotenv()
 
-APIFY_API_TOKEN = os.getenv("APIFY_API_TOKEN")
+apify_token = st.secrets["APIFY_API_TOKEN"]
 
 if not APIFY_API_TOKEN:
     raise ValueError("APIFY_API_TOKEN is missing from .env")
