@@ -1,13 +1,13 @@
-import os
+
 import pandas as pd
 
-from dotenv import load_dotenv
+
 from apify_client import ApifyClient
 
 from supabase_config import supabase
 
 
-load_dotenv()
+
 
 APIFY_API_TOKEN = st.secrets["APIFY_API_TOKEN"]
 
