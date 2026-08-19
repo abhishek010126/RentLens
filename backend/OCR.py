@@ -54,7 +54,7 @@ def extract_property_from_image(uploaded_image):
     """
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.6-flash",
         contents=[
             image_part,
             prompt
