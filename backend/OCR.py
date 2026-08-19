@@ -3,7 +3,7 @@ from google import genai
 from pydantic import BaseModel
 from typing import Optional
 import os
-from dotenv import load_dotenv
+
 from google.genai import types
 
 
@@ -18,7 +18,7 @@ class PropertyData(BaseModel):
     maintenance: Optional[int] = None
 
 
-load_dotenv()
+
 
 client = genai.Client(
     api_key=st.secrets["GEMINI_API_KEY"]
