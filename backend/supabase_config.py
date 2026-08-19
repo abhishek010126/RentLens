@@ -5,8 +5,8 @@ from supabase import create_client
 
 load_dotenv()
 
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_PUBLISHABLE_KEY")
+supabase_url = st.secrets["SUPABASE_URL"]
+supabase_key = st.secrets["SUPABASE_PUBLISHABLE_KEY"]
 
 if not SUPABASE_URL:
     raise ValueError("SUPABASE_URL is missing from .env")
